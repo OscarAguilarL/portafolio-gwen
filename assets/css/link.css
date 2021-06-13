@@ -1,0 +1,16 @@
+.link {
+  text-decoration: none;
+  font: var(--body2-bold);
+  color: var(--secondary);
+  transition: 0.2s color;
+}
+
+.link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.link.is-active {
+  text-decoration: none;
+  color: var(--white);
+}
