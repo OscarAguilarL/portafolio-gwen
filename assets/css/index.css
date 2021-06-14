@@ -6,6 +6,8 @@
 @import "./wrapper.css";
 @import "./projects.css";
 @import "./companies.css";
+@import "./contact.css";
+@import "./footer.css";
 
 :root {
   scroll-behavior: smooth;

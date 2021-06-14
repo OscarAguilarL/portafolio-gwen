@@ -1,0 +1,30 @@
+.contact {
+  margin-block-end: 4rem;
+}
+
+.contact-c2a {
+  font: var(--headline4);
+  color: var(--white);
+}
+
+.contact a {
+  color: var(--button-background);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    margin-block-end: 5rem;
+  }
+
+  .contact-c2a {
+    font: var(--headline2);
+  }
+
+  .contact a {
+    font-size: 4rem;
+  }
+}
