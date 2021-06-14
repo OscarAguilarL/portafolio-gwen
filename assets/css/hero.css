@@ -1,0 +1,23 @@
+.hero {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: block;
+    margin-block-end: 5rem;
+  }
+
+  .hero-title {
+    font: var(--headline1);
+    color: var(--white);
+    max-inline-size: 1188px;
+  }
+
+  .hero-description {
+    font: var(--body1-regular);
+    color: var(--secondary);
+    max-inline-size: 36.25rem;
+    margin-block-end: 1.5rem;
+  }
+}
