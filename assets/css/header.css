@@ -61,11 +61,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    padding-inline-start: 5.5625rem;
-    padding-inline-end: 5.5625rem;
-  }
-
   .header-navigation {
     display: flex;
     align-items: center;

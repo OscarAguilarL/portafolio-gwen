@@ -1,6 +1,7 @@
 @import "./icons.css";
 @import "./header.css";
 @import "./link.css";
+@import "./wrapper.css";
 
 :root {
   --baseFont: "Arvo", serif;
@@ -28,7 +29,7 @@
 body {
   font-family: var(--baseFont);
   margin: 0;
-  padding-inline-end: 1rem;
-  padding-inline-start: 1rem;
+  padding-inline-start: 5.5625rem;
+  padding-inline-end: 5.5625rem;
   background: var(--background-1);
 }
