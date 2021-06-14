@@ -5,6 +5,7 @@
 @import "./hero.css";
 @import "./wrapper.css";
 @import "./projects.css";
+@import "./companies.css";
 
 :root {
   scroll-behavior: smooth;

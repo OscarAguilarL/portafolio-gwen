@@ -1,0 +1,35 @@
+.companies {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5;
+  justify-content: center;
+}
+
+.companies-description {
+  font: var(--headline4);
+  color: var(--white);
+}
+
+.companies-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .companies-description {
+    font: var(--headline2);
+  }
+
+  .companies-logos {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .companies-logos > * {
+    inline-size: 23.4375rem;
+    block-size: auto;
+  }
+}
