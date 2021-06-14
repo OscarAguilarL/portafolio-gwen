@@ -1,9 +1,13 @@
 @import "./icons.css";
 @import "./header.css";
 @import "./link.css";
+@import "./button.css";
+@import "./hero.css";
 @import "./wrapper.css";
+@import "./projects.css";
 
 :root {
+  scroll-behavior: smooth;
   --baseFont: "Arvo", serif;
   --primary: #5928e5;
   --white: #fffffe;
@@ -29,7 +33,14 @@
 body {
   font-family: var(--baseFont);
   margin: 0;
-  padding-inline-start: 5.5625rem;
-  padding-inline-end: 5.5625rem;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
   background: var(--background-1);
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding-inline-start: 5.5625rem;
+    padding-inline-end: 5.5625rem;
+  }
 }
